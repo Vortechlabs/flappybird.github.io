@@ -9,10 +9,10 @@ var myObstacles = [];
 var myScore;
 
 var objectImage = new Image();
-objectImage.src = '/sprites/object.png'; 
+objectImage.src = '/object.png'; 
 
 var resistanceImage = new Image();
-resistanceImage.src = '/sprites/resistance.png'; 
+resistanceImage.src = '/resistance.png'; 
 
 objectImage.onload = function() {
     console.log('Gambar object dimuat');
